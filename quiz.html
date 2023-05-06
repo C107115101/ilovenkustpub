@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>高科大知多少 - I Love NKUST</title>
+		<link rel="icon" href="images/NKUST_logo.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">高科大知多少</a></h1>
+						<nav>
+							<a href="#menu">選單</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>選單</h2>
+							<ul class="links">
+								<li><a href="index.html">主頁</a></li>
+								<li><a href="rap.html">高科大之歌</a></li>
+								<li><a href="beauty.html">高科大之美</a></li>
+								<li><a href="quiz.html">高科大知多少</a></li>
+							</ul>
+							<a href="#" class="close"></a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>高科大知多少</h2>
+								<p>為了推崇高科大的美好，特別製作的小遊戲，看看你對這間學校了解多少呢?<br>
+									讓我們透過這個有趣的小測驗，考考自己對高科大的了解，加深對學校的認識，<br>
+									一同向世界揚起高科大的旗幟吧~🎺🎺🎺</p>
+							</div>
+						</header>
+				<!-- Content -->
+                            <div class="wrapper">
+                                <div style="text-align: center;">
+                                    <!--<div id="questionnarie">-->
+                                    <!--<div id="wrapper">-->
+                                        <!-- Question 1 -->
+                                        <h2>1. 對高科大的第一印象是?</h2>
+                                        <!-- Here are the choices for the first question. Each input tag must have the same name. For this question, the name is q1. -->
+                                        <!-- The value is which answer the choice corresponds to. -->
+                                        <input class="answer" id ='c11' type="radio" name="q1" value="1">
+                                        <label for='c11'>企業最愛、技職南霸天</label><br/>
+                                        <input class="answer" id ='c12' type="radio" name="q1" value="0">
+                                        <label for='c12'>畢業後就業率高達100%</label><br/>
+                                        <input class="answer" id ='c13' type="radio" name="q1" value="0">
+                                        <label for='c13'>教育部指定創新自造教育新南向大學基地</label><br/>
+                                        <input class="answer" id ='c14' type="radio" name="q1" value="0">
+                                        <label for='c14'>榮獲《遠見》雜誌每家企業心中最佳大學生前三名的學校</label><br/>
+                                        
+                                        <!-- Question 2 -->
+                                        <h2>2. 以下何者為高科大傑出校友?</h2>
+                                        <!-- Here are the choices for the second question. Notice how each input tag has the same name (q2), but a different name than the previous question. -->
+                                        <input class="answer" id ='c21' type="radio" name="q2" value="0">
+                                        <label for='c21'>郭台銘 - 鴻海集團創辦人</label><br/>
+                                        <input class="answer" id ='c22' type="radio" name="q2" value="1">
+                                        <label for='c22'>趙藤雄 - 遠雄集團董事長</label><br/>
+                                        <input class="answer" id ='c23' type="radio" name="q2" value="0">
+                                        <label for='c23'>王希銘 - 散戶中的霸主</label><br/>
+                                        <input class="answer" id ='c24' type="radio" name="q2" value="0">
+                                        <label for='c24'>窩不知道peko</label><br/>
+
+										<!-- Question 3 -->
+                                        <h2>3. 高科大於幾年進行三校合併，成為南部最大技職學校?</h2>
+                                        <input class="answer" id ='c31' type="radio" name="q3" value="0">
+                                        <label for='c31'>民國106年</label><br/>
+                                        <input class="answer" id ='c32' type="radio" name="q3" value="1">
+                                        <label for='c32'>民國107年</label><br/>
+                                        <input class="answer" id ='c33' type="radio" name="q3" value="0">
+                                        <label for='c33'>民國108年</label><br/>
+                                        <input class="answer" id ='c34' type="radio" name="q3" value="0">
+                                        <label for='c34'>還沒合併</label><br/>
+
+										<!-- Question 3 -->
+										<h2>4. 高科大第一校區學餐中，大香雞排飯的價錢?</h2>
+										<input class="answer" id ='c41' type="radio" name="q4" value="0">
+										<label for='c41'>50元</label><br/>
+										<input class="answer" id ='c42' type="radio" name="q4" value="0">
+										<label for='c42'>70元</label><br/>
+										<input class="answer" id ='c43' type="radio" name="q4" value="0">
+										<label for='c43'>80元</label><br/>
+										<input class="answer" id ='c44' type="radio" name="q4" value="1">
+										<label for='c44'>90元</label><br/>
+										
+										<div style = "text-align: center;">
+											<br>
+											<ul class="actions stacked">
+												<li><a id="submit" onClick="submitQuiz()" class="button primary fit">送出答案</a></li>
+												<li><a id="reset" onclick="resetAnswer()" class="button fit">重新填寫</a></li>
+											</ul>
+										</div>
+
+                                        <div id="answer">作答結果將會顯示於此</div>
+                                </div>
+                            </div>
+                        
+                            
+                    </section>
+				<!-- Footer -->
+				<section id="footer">
+				<div class="inner">
+					<h2 class="major">展現你對高科大的愛！</h2>
+					<p>想要展現你對高科大的愛嗎？趕緊透過上方的IG連結聯絡我們！</p>
+				</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
